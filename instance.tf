@@ -1,5 +1,5 @@
-resource "linode_instance" "jenkins" {
-  label      = "jenkins"
+resource "linode_instance" "jenkins-test" {
+  label      = "jenkins-test"
   tags       = ["k8s"]
   region     = "us-lax"
   type       = "g6-standard-2"
